@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "year": 1997,
+    "genres": ["Fantasy", "Young Adult"],
+    "themes": ["friendship", "magic", "identity", "courage", "found family"],
+    "short_summary": "An orphan learns he belongs to a hidden world of magic.\nAt a wizarding school he finds loyal friends and rivals.\nA mystery around a powerful stone draws him into danger.\nTeamwork and bravery reveal the first shadow of a dark foe.",
+    "detailed_summary": "Harry grows up neglected by the Dursleys and discovers on his eleventh birthday that he is a wizard. At Hogwarts he befriends Ron and Hermione, is sorted into Gryffindor, and becomes a Seeker on the Quidditch team. Clues point to a plot involving the Philosopher's Stone and the return of Voldemort. The trio bypasses enchanted obstacles and confronts Professor Quirrell, who carries Voldemort on the back of his head. Their courage protects the Stone and cements their friendship, setting up Harry's larger battle with evil."
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year": 1937,
+    "genres": ["Fantasy", "Adventure"],
+    "themes": ["courage", "greed", "home", "friendship", "coming of age"],
+    "short_summary": "A reluctant hobbit joins dwarves on a quest to reclaim treasure.\nTrolls, goblins, elves, and a dragon stand in their way.\nA mysterious ring falls into the hobbit's hands.\nSmall choices ripple into world-changing consequences.",
+    "detailed_summary": "Bilbo Baggins is recruited by Gandalf to aid a band of dwarves led by Thorin Oakenshield in reclaiming Erebor from the dragon Smaug. Along the road they endure trolls, goblins, wolves, spiders, and imprisonment by wood-elves. In Gollum's cave Bilbo finds a ring that grants invisibility. He uses wit rather than force to save the company repeatedly. Smaug is slain by Bard, but greed over the hoard sparks conflict until the Battle of Five Armies unites elves, men, and dwarves against goblins and wolves. Bilbo returns changed, valuing home yet tempered by courage."
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "year": 1988,
+    "genres": ["Fable", "Adventure"],
+    "themes": ["destiny", "self-discovery", "spirituality", "perseverance", "omens"],
+    "short_summary": "A shepherd dreams of treasure near the pyramids.\nGuided by omens, he crosses desert and doubt.\nMentors teach him to listen to his heart.\nThe journey reveals that treasure and self are intertwined.",
+    "detailed_summary": "Santiago leaves Spain after recurring dreams of treasure. He meets Melchizedek, a king who speaks of Personal Legends, and an Englishman studying alchemy. In the oasis he falls in love with Fatima and learns patience from the desert. The Alchemist helps him see that fear and attachment cloud purpose. After surviving tribal conflict and near-death trials, Santiago reaches the pyramids and realizes the treasure lies back where he first dreamed—under a sycamore at an abandoned church. The lesson: pursuit transforms the seeker and reveals meaning."
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "genres": ["Dystopian", "Political Fiction"],
+    "themes": ["totalitarianism", "surveillance", "truth", "language", "individual vs state"],
+    "short_summary": "A regime controls thought through propaganda and fear.\nA weary clerk commits small acts of rebellion.\nLove becomes a fragile refuge under omnipresent eyes.\nTruth is rewritten until resistance collapses.",
+    "detailed_summary": "Winston Smith works at the Ministry of Truth altering past records to match Party doctrine. He begins an illicit affair with Julia and nurtures hopes of revolt. O'Brien appears as a conspirator but is actually an agent of the state. Winston is arrested, tortured, and forced to accept the Party's logic—2+2=5—while the Thought Police crush autonomy. The novel explores Newspeak, doublethink, and the destruction of private loyalty. In the end Winston loves Big Brother, a chilling portrait of power that remakes reality."
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "year": 2003,
+    "genres": ["Literary Fiction", "Historical"],
+    "themes": ["friendship", "betrayal", "guilt", "redemption", "father–son"],
+    "short_summary": "A privileged boy betrays his loyal friend in Kabul.\nWar scatters families across continents.\nYears later a call offers a chance to be good again.\nCourage means facing past sins to save a child.",
+    "detailed_summary": "Amir and Hassan share childhood in 1970s Kabul, divided by class and ethnicity. After Hassan is assaulted, Amir's inaction breeds lifelong guilt. The Soviet invasion forces Amir and his father to flee to the U.S. A message from Rahim Khan draws Amir back to Taliban-era Afghanistan to rescue Hassan's son, Sohrab. Confronting a sadistic official who was once their bully, Amir seeks atonement. The novel examines the costs of silence and the possibility of redemption through truth and care."
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "year": 2005,
+    "genres": ["Historical", "Young Adult"],
+    "themes": ["war", "words", "friendship", "death", "resilience"],
+    "short_summary": "Death narrates a girl's life in Nazi Germany.\nShe steals books to make sense of loss.\nHer foster family hides a Jewish boxer in the basement.\nStories become a thin shield against brutality.",
+    "detailed_summary": "Liesel Meminger arrives in Molching after losing her brother and being separated from her mother. With Hans and Rosa Hubermann she learns to read, discovering solace in stolen books. The family shelters Max Vandenburg, a Jewish fist-fighter, risking execution. Liesel befriends Rudy, witnesses bombings, and sees how words can both wound and heal. Death, the narrator, observes humanity with weary compassion as the town is destroyed. Liesel survives, carrying forward the power of stories."
+  },
+  {
+    "title": "All the Light We Cannot See",
+    "author": "Anthony Doerr",
+    "year": 2014,
+    "genres": ["Historical", "Literary Fiction"],
+    "themes": ["war", "innocence", "radio", "fate", "survival"],
+    "short_summary": "A blind French girl and a German boy converge in wartime.\nRadio signals become threads of hope and danger.\nA cursed diamond entangles occupiers and the occupied.\nKindness flickers in the dark like Morse code.",
+    "detailed_summary": "Marie-Laure flees Paris with her locksmith father to Saint-Malo, possibly carrying the Sea of Flames diamond. Werner, an orphan gifted with radio repair, is conscripted into the Wehrmacht to hunt resistance transmitters. Their paths intersect during the Allied siege as the city burns. The novel alternates timelines, exploring science, wonder, and the moral compromises of survival. Acts of quiet bravery—broadcasts, maps, and secret signals—illuminate the unseen connections between people."
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "year": 1965,
+    "genres": ["Science Fiction", "Epic"],
+    "themes": ["ecology", "power", "prophecy", "colonialism", "religion"],
+    "short_summary": "A noble house is betrayed on a desert planet.\nSpice, the galaxy's key resource, shapes politics and faith.\nA young heir learns the ways of the Fremen.\nDestiny and ecology collide in a sandstorm of revolt.",
+    "detailed_summary": "House Atreides takes stewardship of Arrakis, source of the melange spice, but falls to a conspiracy by House Harkonnen and the Emperor. Paul and Lady Jessica escape into the desert, where Paul's prescient abilities grow among the Fremen. He becomes Muad'Dib, uniting tribes to topple imperial power by controlling spice and sandworms. The book interrogates messianic myth, ecological limits, and the unintended consequences of charismatic leadership."
+  },
+  {
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "year": 2007,
+    "genres": ["Fantasy"],
+    "themes": ["storytelling", "talent", "grief", "revenge", "education"],
+    "short_summary": "An infamous figure tells his own origin story.\nProdigy, orphan, and student, he chases the Chandrian.\nMusic and magic mingle at a perilous university.\nLegend and truth blur in a single long tale.",
+    "detailed_summary": "Kvothe, living incognito as an innkeeper, recounts his youth to the Chronicler. After his troupe is murdered by the mysterious Chandrian, he survives street life, enters the University by wit, and studies sympathy (magic), artificing, and naming. Rivalries with Ambrose, debt, and obsession with Denna complicate his ascent. Episodes—draccus, admissions, archives bans—build a portrait of genius shaped by loss and pride. The frame narrative raises questions about reputation versus reality."
+  },
+  {
+    "title": "The Nightingale",
+    "author": "Kristin Hannah",
+    "year": 2015,
+    "genres": ["Historical", "Drama"],
+    "themes": ["sisterhood", "resistance", "sacrifice", "love", "war"],
+    "short_summary": "Two sisters in occupied France choose different paths.\nOne shelters enemies-turned-humans; the other smuggles pilots.\nDanger forces ordinary people into extraordinary acts.\nWar tests love, duty, and survival.",
+    "detailed_summary": "Vianne endures German occupation in Carriveau, protecting her daughter and hiding Jewish children despite collaboration pressure. Isabelle joins the resistance as the Nightingale, leading downed Allied airmen across the Pyrenees. Their choices fracture and ultimately reunite the family. The novel emphasizes female courage under occupation, the costs of defiance, and the quiet endurance of those who remain."
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "year": 2011,
+    "genres": ["Nonfiction", "History"],
+    "themes": ["evolution", "culture", "economics", "technology", "myth-making"],
+    "short_summary": "From foragers to farmers to capitalists, humans reshape the world.\nShared myths enable large-scale cooperation.\nScience accelerates change but brings ethical dilemmas.\nThe future of Homo sapiens is an open question.",
+    "detailed_summary": "Harari synthesizes anthropology, archaeology, and economics to trace human development: the Cognitive Revolution enabling language and shared fictions; the Agricultural Revolution creating surplus and hierarchy; the unifying forces of money, empires, and religions; and the Scientific Revolution driving rapid growth and risk. He provokes debate on happiness, animal welfare, dataism, and bioengineering, inviting readers to reflect on what we value collectively."
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "year": 2006,
+    "genres": ["Post-apocalyptic", "Literary Fiction"],
+    "themes": ["parenthood", "hope", "survival", "good vs evil", "scarcity"],
+    "short_summary": "A father and son walk through ash and ruin.\nThey carry the fire while evading desperate survivors.\nLanguage thins as the world empties out.\nLove becomes the map when maps are useless.",
+    "detailed_summary": "After an unspecified cataclysm, a man and his young son head south along a destroyed American landscape. They scavenge, avoid cannibal gangs, and cling to a moral code—'carrying the fire.' Sparse dialogue and haunting imagery foreground tenderness amidst terror. The father’s illness and the boy’s innocence drive the emotional core, culminating in an ending that balances devastating loss with a fragile continuation of humanity."
+  }
+]
