@@ -38,6 +38,10 @@ src/backend/*.sqlite
 src/backend/*.db
 src/backend/.ipynb_checkpoints/
 
+**/.env
+**/.env.local
+!**/.env.example
+
 # -----------------------------
 # Node / React (frontend)
 # -----------------------------
@@ -49,9 +53,9 @@ frontend/.parcel-cache/
 frontend/.eslintcache
 
 # env files (keep only example)
-frontend/.env
-frontend/.env.*
-!frontend/.env.example
+src/frontend/.env
+src/frontend/.env.*
+!src/frontend/.env.example
 
 # -----------------------------
 # IDE / editor
