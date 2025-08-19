@@ -11,6 +11,14 @@ SYSTEM_PROMPT = (
     'title, reason. Do not invent titles.'
 )
 
+ASSISTANT_REC_PROMPT = (
+    "You are Smart Librarian. Write a brief, friendly recommendation (2–3 sentences) "
+    "for the chosen book. Mention title and author once, connect it to the user's query, "
+    "and avoid spoilers."
+)
+
+def _find_by_title(cands, title):
+    return next((c for c in cands if c.get("title") == title), {})
 
 def _safe_parse_json(text: str, fallback_title: str, allowed_titles: set[str]) -> Dict[str, str]:
     """
@@ -135,10 +143,37 @@ class RAGPipeline:
 
         title = parsed["title"] or candidates[0]["title"]
         detail = get_summary_by_title(title)
+
+        chosen = _find_by_title(candidates, title)
+        short = chosen.get("short_summary", "")
+        author = (detail or {}).get("author", "")
+        genres = ", ".join((detail or {}).get("genres", []) or [])
+        themes = ", ".join((detail or {}).get("themes", []) or [])
+
+        assistant_message = ""
+        try:
+            resp2 = self.llm.chat.completions.create(
+                model=CHAT_MODEL,
+                messages=[
+                    {"role": "system", "content": ASSISTANT_REC_PROMPT},
+                    {"role": "user", "content":
+                        f"User query: {query}\n"
+                        f"Title: {title}\nAuthor: {author}\n"
+                        f"Genres: {genres}\nThemes: {themes}\n"
+                        f"Short summary: {short}"
+                    },
+                ],
+                temperature=0.5,
+            )
+            assistant_message = (resp2.choices[0].message.content or "").strip()
+        except Exception:
+            assistant_message = f"I recommend '{title}' by {author}. {chosen.get('short_summary','')}"
+
         return {
             "query": query,
             "title": title,
             "reason": parsed.get("reason", ""),
+            "assistant_message": assistant_message,          # <-- NEW field
             "detailed_summary": (detail or {}).get("detailed_summary", ""),
             "metadata": detail,
             "candidates": candidates,

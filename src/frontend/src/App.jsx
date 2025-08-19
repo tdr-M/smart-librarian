@@ -111,11 +111,17 @@ export default function App() {
             color: "#374151",
             cursor: busy ? "not-allowed" : "pointer"
           }}
-          title="Re-embed current dataset"
+          title="Rebuild the vector index from the current dataset"
         >
           Reindex
         </button>
       </form>
+
+      {/* Small helper text for Reindex */}
+      <div style={{ marginTop: 8, fontSize: 12, color: "#6b7280" }}>
+        Reindex reloads <code>book_summaries.json</code> into ChromaDB and re-embeds all entries.
+        Use this after you edit the dataset.
+      </div>
 
       {error && (
         <div
@@ -134,10 +140,6 @@ export default function App() {
 
       <BookCard result={result} />
       <Candidates items={result?.candidates || []} />
-
-      <footer style={{ marginTop: 32, fontSize: 13, color: "#6b7280" }}>
-        API base: {import.meta.env.VITE_API_BASE_URL}
-      </footer>
     </div>
   );
 }
