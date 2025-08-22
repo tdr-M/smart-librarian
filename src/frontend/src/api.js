@@ -55,13 +55,7 @@ export async function sttUpload(file) {
   return body.text;
 }
 
-export async function genCover(title, hint = "", size = "512x512", format = "webp") {
-  const res = await fetch(`${BASE_URL}/cover`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ title, hint, size, format })
-  });
-  const body = await res.json().catch(() => ({}));
-  if (!res.ok) throw new Error(body?.detail || `HTTP ${res.status}`);
-  return body;
+export function coverUrl(title, params = {}) {
+  const p = new URLSearchParams({ title, ...params });
+  return `${BASE_URL}/cover/img?${p.toString()}`;
 }
