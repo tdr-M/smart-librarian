@@ -4,3 +4,5 @@ chromadb
 openai
 pydantic
 python-dotenv
+python-multipart
+pillow
